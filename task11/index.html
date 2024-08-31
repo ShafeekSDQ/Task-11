@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+</head>
+<body>
+    <img id="hoverImage" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/logo_Google_FullColor_3x_830x27.max-600x600.format-webp.webp" alt="Image">
+    <script>
+        const imgElement = document.getElementById('hoverImage');
+
+imgElement.onmouseover = function() {
+    imgElement.style.visibility = 'hidden';
+};
+
+imgElement.onmouseout = function() {
+    imgElement.style.visibility = 'visible';
+};
+
+    </script>
+</body>
+</html>
